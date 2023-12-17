@@ -1,0 +1,19 @@
+.article__button-like {
+  display: block;
+  position: absolute;
+  background-image: url(../../../images/Group.svg);
+  outline: none;
+  border: none;
+  width: 22px;
+  height: 19px;
+  bottom: 35px;
+  right: 20px;
+  background-color: #FFFFFF;
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.article__button-like:hover {
+  opacity: 0.5;
+}

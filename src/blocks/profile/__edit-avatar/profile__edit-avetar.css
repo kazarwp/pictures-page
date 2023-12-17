@@ -1,0 +1,26 @@
+.profile__edit-avatar {
+  background-image: url('../../../images/VectorAvatar.png');
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 0;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  opacity: 0;
+  transition: .7s ease;
+  margin: 0 auto;
+}
+
+.profile__edit-avatar:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 1;
+}
+
+@media screen and (max-width: 950px) {
+  .profile__edit-avatar {
+    top: 0%;
+    left: 50%;
+    margin-left: -60px;
+  }
+}

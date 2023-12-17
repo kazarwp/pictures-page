@@ -1,0 +1,10 @@
+.article__title {
+  padding: 21px 51px 23px 19px;
+  margin: 0;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 29px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
